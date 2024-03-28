@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Começando com DOM</title>
+    <style>
+body{
+    background-color: rgb(50, 128, 247);
+    color: #ffffff;
+    font: normal arial;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Começando a usar o DOM</h1>
+    <p>Esse trem nao funciona<br>O <strong>DOM</strong> não funciona</p>
+    <div id='msg'>Testando isso</div>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] //Seleciono um elemento pela seu tipo e numeração
+        window.document.write(p1.innerText) //Escrevo ele de novo
+        p1.style.color = 'Black'
+        var d = window.document.getElementById('msg')
+        d.style.color='purple'/*pode usar criando uma variavel
+        ou*/
+        window.document.getElementById('msg').innerText='Consigo mudar as parada'//usa asssim
+        var g = window.document.querySelector('div#msg')//usa um seletor
+        g.style.color = 'white' //Dá pra mudar assim tambem
+    </script>
+</body>
+</html>

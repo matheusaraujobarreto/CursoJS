@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font:normal 18pt arial
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual seu nome?')
+        document.writeln(`Seu nome tem ${nome.length} letras`)
+        document.writeln(`Seu nome em maisculo é <strong>${nome.toUpperCase()}</strong> <br> E em minusculo <strong>${nome.toLowerCase()}`)
+        //Manipulação de string simples
+        //O strong é para deixar em negrito e o br para pular linha tipo /n
+        var n1 = 1542.5
+        document.write(`<br>${n1.toFixed(3).replace('.',',')}`)//Coloco mais casas decimais e troco o ponto por virgula
+        document.write(`<br>${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}<br>`)
+        document.write(`${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}<br>`)
+        //Codigo avançado para mudar automaticamente o valor para o brasil
+        
+    </script>
+</body>
+</html>

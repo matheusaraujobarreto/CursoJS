@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de programa</title>
+    <style> 
+        /*Mudanças visuais no código*/
+        body{
+            background-color: rgb(255, 255, 255);
+            color: #000000;
+            font-size: large;
+        }
+        h1{
+            color: rgb(43, 220, 20);
+            font: normal;
+        }
+        p{
+            color: #ff0202;
+        }
+    </style><!--Esse é o comentário no HTML-->
+</head>
+<body>
+    <h1>Ola mundo</h1>
+    <p>Esse negocio de menor e maior é horrivel</p>
+    <p></p>
+    <script>
+        var n1 = Number(prompt('Digite um valor'))//O prompt volta uma string
+        var n2 = Number(prompt('Digite outro'))//posso colocar só 'number' que ele identifica
+        var s = n1 + n2
+        //window.alert("A soma de "+n1+' e '+n2+'é '+s)//Porem escrever assim é trabalhoso logo pode-se usar...
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`)//Assim fica muito mais fácil escrever
+    </script>
+</body>
+</html>
