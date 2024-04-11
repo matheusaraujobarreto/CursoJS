@@ -9,19 +9,17 @@
 
 <body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Contador</h1>
 
     </header>    
     <section>
-        <div id="msg">
-            testando
-
-        </div>
-        <div id="foto">
-            <img src="aula12ex/modelo/tarde.png" alt="Aparece ai">
-
-        </div>
-
+        <div>
+        <p>Inicio: <input type="number" required id="inicio"></p>
+        <p>Fim: <input type="number" required id="fim"></p>
+        <p>Salto: <input type="number" required id="salto"></p>
+        <input type="submit" value="Contar" onclick="contar()">
+    </div>
+        <div id="res"></div>
     </section>
     <footer>
         <p>&copy;By Curso em Video</p>

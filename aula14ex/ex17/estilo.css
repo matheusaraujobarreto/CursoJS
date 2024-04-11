@@ -10,12 +10,21 @@ section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 40vw;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 }
+input[type=submit]:hover{
+    cursor: pointer;
+}
+select{
+    padding-top: 10px;
+    border: none;
+    display: block;
+    margin: auto;
+}
 footer{
-color: white;
-text-align: center;
-font-style: italic;
+    color: white;
+    text-align: center;
+    font-style: italic;
 }
