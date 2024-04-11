@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(0, 195, 255);
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    background: white;
+    display: block;
+    width: 60vw;
+    height: 50vh;
+
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+}
+section{
+    padding: 30px;
+    margin: 10px;
+}
+section >  div{
+    padding: 10px
+}
+section > label{
+    padding-top: 30px;
+    margin: 10px;
+}
+p#botao{
+    padding-left: 10px;
+}
+input[type=submit]{
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 1px inset black;
+}
+input[type=submit]:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+div#res{
+    text-align: center;
+}
+img{
+    display: block;
+    height: 250px;
+    margin: auto;
+    width: 250px;
+    border-radius: 150px;
+    padding-top: 15px;
+}
